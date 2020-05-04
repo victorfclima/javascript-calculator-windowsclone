@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="author" content="Victorfclima">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Windows Calculator by Victorfclima</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" media="screen" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="center">
+        <div id="calculadora">
+            <header>
+                <div id="display">
+                    
+                </div>
+            </header>
+            <section class="container">
+                <div class="row">
+                    <button type="button" class="btn btn-others col-sm" id="percent">%</button>
+                    <button type="button" class="btn btn-others col-sm" id="squareroot">√</button>
+                    <button type="button" class="btn btn-others col-sm" id="square">x²</button>
+                    <button type="button" class="btn btn-others col-sm" id="inverse">¹/x</button>
+                </div>
+                <div class="row">
+                    <button type="button" class="btn btn-others col-sm" id="clearentry">CE</button>
+                    <button type="button" class="btn btn-others col-sm" id="clear">C</button>
+                    <button type="button" class="btn btn-others col-sm" id="arrow">←</button>
+                    <button type="button" class="btn btn-others col-sm" id="divide">÷</button>
+                </div>
+                <div class="row">
+                    <button type="button" class="btn btn-number col-sm" id="btn-7">7</button>
+                    <button type="button" class="btn btn-number col-sm" id="btn-8">8</button>
+                    <button type="button" class="btn btn-number col-sm" id="btn-9">9</button>
+                    <button type="button" class="btn btn-others col-sm" id="multiply">X</button>
+                </div>
+                <div class="row">
+                    <button type="button" class="btn btn-number col-sm" id="btn-4">4</button>
+                    <button type="button" class="btn btn-number col-sm" id="btn-5">5</button>
+                    <button type="button" class="btn btn-number col-sm" id="btn-6">6</button>
+                    <button type="button" class="btn btn-others col-sm" id="minus">-</button>
+                </div>
+                <div class="row">
+                    <button type="button" class="btn btn-number col-sm" id="btn-1">1</button>
+                    <button type="button" class="btn btn-number col-sm" id="btn-2">2</button>
+                    <button type="button" class="btn btn-number col-sm" id="btn-3">3</button>
+                    <button type="button" class="btn btn-others col-sm" id="plus">+</button>
+                </div>
+                <div class="row">
+                    <button type="button" class="btn btn-others col-sm" id="plusminus">±</button>
+                    <button type="button" class="btn btn-number col-sm" id="btn-0">0</button>
+                    <button type="button" class="btn btn-others col-sm" id="dot">,</button>
+                    <button type="button" class="btn btn-others col-sm" id="equal">=</button>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script src="scripts/controller/calcController.js"></script>
+    <script src="scripts/calculator.js"></script>
+</body>
+
+</html>
